@@ -64,5 +64,5 @@ setup(
         'Intended Audience :: Developers',
         'Natural Language :: English',
     ],
-    package_data={'lsdo_airfoil' :['lsdo_airfoil/core/uiuc_airfoils/*']}
+    # package_data={'lsdo_airfoil' :['lsdo_airfoil/core/uiuc_airfoils/*']}
 )
