@@ -51,6 +51,8 @@ setup(
         'twine',
         'scipy',
         'torch',
+        'optuna',
+        'scikit-learn',
     ],
     classifiers=[
         'Programming Language :: Python',
@@ -62,4 +64,5 @@ setup(
         'Intended Audience :: Developers',
         'Natural Language :: English',
     ],
+    package_data={'lsdo_airfoil' :['lsdo_airfoil/core/uiuc_airfoils/*']}
 )
